@@ -1,0 +1,10 @@
+{
+  "name": "angular2-quickstart",
+  "devDependencies": {
+    "live-server": "^0.8.2"
+  },
+  "scripts": {
+    "start": "live-server"
+  },
+  "private": true
+}
