@@ -1,10 +1,16 @@
 {
   "name": "angular2-quickstart",
   "devDependencies": {
-    "live-server": "^0.8.2"
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
   },
   "scripts": {
-    "start": "live-server"
+    "start": "live-server --open=src",
+    "tsc": "tsc -p . -w"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "angular2": "2.0.0-alpha.44",
+    "systemjs": "0.19.2"
+  }
 }
