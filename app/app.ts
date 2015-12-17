@@ -1,4 +1,5 @@
-import {Component, bootstrap, FORM_DIRECTIVES} from "angular2/angular2";
+import {Component} from "angular2/core";
+import {FORM_DIRECTIVES} from "angular2/common";
 import {MyInput} from "./my-input";
 
 
@@ -12,8 +13,6 @@ import {MyInput} from "./my-input";
                <input type="text" [ng-model]="text" (ng-model-change)="text = $event" />
                `
 })
-class MyApp {}
-
-bootstrap(MyApp);
+export class MyApp {}
 
 
